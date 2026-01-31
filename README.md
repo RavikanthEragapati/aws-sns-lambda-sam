@@ -11,3 +11,5 @@ AWS
              |--- Lambda (Node.js)
        )
 ```
+SNS → fan-out → all three Lambdas run in parallel
+
