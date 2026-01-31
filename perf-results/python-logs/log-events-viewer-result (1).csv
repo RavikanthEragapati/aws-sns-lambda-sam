@@ -1,0 +1,66 @@
+timestamp,message
+1769837648683,"INIT_START Runtime Version: python:3.9.v128	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:e2a5bd55a607e83016759f2a14998128a0b8f4a28548b3dbc3e4b6d8e86b1623
+"
+1769837648767,"START RequestId: 26665fba-180a-4ef8-a724-2c06c41bb74a Version: $LATEST
+"
+1769837648768,"SNS Event:
+"
+1769837648768,"{
+"
+1769837648768,"""Records"": [
+"
+1769837648768,"{
+"
+1769837648768,"""EventSource"": ""aws:sns"",
+"
+1769837648768,"""EventVersion"": ""1.0"",
+"
+1769837648768,"""EventSubscriptionArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769837648768,"""Sns"": {
+"
+1769837648768,"""Type"": ""Notification"",
+"
+1769837648768,"""MessageId"": ""b518ac47-ccd4-560f-851e-cdb05a44358a"",
+"
+1769837648768,"""TopicArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic"",
+"
+1769837648768,"""Message"": ""Hello performance test - 1"",
+"
+1769837648768,"""Timestamp"": ""2026-01-31T05:34:08.413Z"",
+"
+1769837648768,"""SignatureVersion"": ""1"",
+"
+1769837648768,"""Signature"": ""j802pu32nGr8WWAtvmf1RZafFv6/72cl5Vll21r2TA9kSs0D8awj79T2mIWXg25qnLI+fqIHbL6wmBxDNl2J5/+zE9oaARFRqclEfF+xauhFVUDNTQ3bM4uFieYZeh8cMmMNQEv+ZPR9URqf498U44HWv/gS6W1Qp2kCRwj7FISVHNJG+wA96otVg1t/LI0b++GeXf7QEtO2ABsLFEf84kxncgf4QKh+Faxl0pmgaVTYUPQtmwlaBBCZEzfz/ZwUGYS9kUHT/5SIhnYC19MhHD9c306gC/U5qc1CR269nZtlrtarYwHIw3U8yOzSEOHM/3pIwkrUw8XAEZKsxtugpQ=="",
+"
+1769837648768,"""SigningCertUrl"": ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7506a1e35b36ef5a444dd1a8e7cc3ed8.pem"",
+"
+1769837648768,"""Subject"": null,
+"
+1769837648768,"""UnsubscribeUrl"": ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769837648768,"""MessageAttributes"": {}
+"
+1769837648768,"}
+"
+1769837648768,"}
+"
+1769837648768,"]
+"
+1769837648768,"}
+"
+1769837648768,"SNS Message: Hello performance test - 1
+"
+1769837648768,"Language=Python
+"
+1769837648768,"ColdStart=True
+"
+1769837648768,"InitDurationMs=5.36
+"
+1769837648768,"ExecutionDurationMs=0.23
+"
+1769837648770,"END RequestId: 26665fba-180a-4ef8-a724-2c06c41bb74a
+"
+1769837648770,"REPORT RequestId: 26665fba-180a-4ef8-a724-2c06c41bb74a	Duration: 1.69 ms	Billed Duration: 83 ms	Memory Size: 128 MB	Max Memory Used: 31 MB	Init Duration: 80.89 ms	
+XRAY TraceId: 1-697d9450-3ad3675d76186e187529f469	SegmentId: ffec38deaf45ecb8	Sampled: true	
+"

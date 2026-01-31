@@ -1,0 +1,45 @@
+timestamp,message
+1769837648726,"INIT_START Runtime Version: nodejs:24.v29	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:b0bb5dea1b12bb0e2c3b50ed434af2fd2d16d383f7324c7b455111008b6112ba
+"
+1769837648874,"START RequestId: bb72f12d-82c8-4b46-8329-d272784fea4f Version: $LATEST
+"
+1769837648881,"2026-01-31T05:34:08.881Z	bb72f12d-82c8-4b46-8329-d272784fea4f	INFO	SNS Event:
+"
+1769837648922,"2026-01-31T05:34:08.922Z	bb72f12d-82c8-4b46-8329-d272784fea4f	INFO	{
+  ""Records"": [
+    {
+      ""EventSource"": ""aws:sns"",
+      ""EventVersion"": ""1.0"",
+      ""EventSubscriptionArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:f1668432-cb9d-4808-8950-9d2044a691e6"",
+      ""Sns"": {
+        ""Type"": ""Notification"",
+        ""MessageId"": ""b518ac47-ccd4-560f-851e-cdb05a44358a"",
+        ""TopicArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic"",
+        ""Message"": ""Hello performance test - 1"",
+        ""Timestamp"": ""2026-01-31T05:34:08.413Z"",
+        ""SignatureVersion"": ""1"",
+        ""Signature"": ""j802pu32nGr8WWAtvmf1RZafFv6/72cl5Vll21r2TA9kSs0D8awj79T2mIWXg25qnLI+fqIHbL6wmBxDNl2J5/+zE9oaARFRqclEfF+xauhFVUDNTQ3bM4uFieYZeh8cMmMNQEv+ZPR9URqf498U44HWv/gS6W1Qp2kCRwj7FISVHNJG+wA96otVg1t/LI0b++GeXf7QEtO2ABsLFEf84kxncgf4QKh+Faxl0pmgaVTYUPQtmwlaBBCZEzfz/ZwUGYS9kUHT/5SIhnYC19MhHD9c306gC/U5qc1CR269nZtlrtarYwHIw3U8yOzSEOHM/3pIwkrUw8XAEZKsxtugpQ=="",
+        ""SigningCertUrl"": ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7506a1e35b36ef5a444dd1a8e7cc3ed8.pem"",
+        ""Subject"": null,
+        ""UnsubscribeUrl"": ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:f1668432-cb9d-4808-8950-9d2044a691e6"",
+        ""MessageAttributes"": {}
+      }
+    }
+  ]
+}
+"
+1769837648922,"2026-01-31T05:34:08.922Z	bb72f12d-82c8-4b46-8329-d272784fea4f	INFO	SNS Message: Hello performance test - 1
+"
+1769837648940,"2026-01-31T05:34:08.940Z	bb72f12d-82c8-4b46-8329-d272784fea4f	INFO	Language=Node.js
+"
+1769837648940,"2026-01-31T05:34:08.940Z	bb72f12d-82c8-4b46-8329-d272784fea4f	INFO	ColdStart=true
+"
+1769837648940,"2026-01-31T05:34:08.940Z	bb72f12d-82c8-4b46-8329-d272784fea4f	INFO	InitDurationMs=71
+"
+1769837648940,"2026-01-31T05:34:08.940Z	bb72f12d-82c8-4b46-8329-d272784fea4f	INFO	ExecutionDurationMs=59
+"
+1769837648961,"END RequestId: bb72f12d-82c8-4b46-8329-d272784fea4f
+"
+1769837648961,"REPORT RequestId: bb72f12d-82c8-4b46-8329-d272784fea4f	Duration: 86.39 ms	Billed Duration: 232 ms	Memory Size: 128 MB	Max Memory Used: 77 MB	Init Duration: 144.86 ms	
+XRAY TraceId: 1-697d9450-124d22d93c27d8205b8baf23	SegmentId: 5996c169249463db	Sampled: true	
+"

@@ -6,9 +6,11 @@ https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/s
 
 ## Required IAM Roles:
 
-cloudformation:CreateChangeSet
-s3:CreateBucket
-iam:DetachRolePolicy
+IAMFullAccess
+AWSLambda_FullAccess
+AWSCloudFormationFullAccess
+AmazonSNSFullAccess
+AmazonS3FullAccess
 
 
 ``` text
@@ -55,7 +57,7 @@ SNS → fan-out → all three Lambdas run in parallel
 
 ```cmd
     aws sns publish \
-  --topic-arn <YOUR_TOPIC_ARN> \
+  --topic-arn arn:aws:sns:us-east-1:122610509877:lambda-performance-topic \
   --message "Hello performance test"
 
 ```
@@ -206,4 +208,11 @@ CREATE_COMPLETE                          AWS::CloudFormation::Stack             
 
 Successfully created/updated stack - sam-app in us-east-1
 
+```
+
+
+## Cleanup 
+
+```cmd
+    sam delete --stack-name <YOUR_STACK_NAME>
 ```

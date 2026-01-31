@@ -1,0 +1,408 @@
+timestamp,message
+1769838053407,"""Subject"": null,
+"
+1769838053407,"""UnsubscribeUrl"": ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838053407,"""MessageAttributes"": {}
+"
+1769838053407,"}
+"
+1769838053407,"}
+"
+1769838053407,"]
+"
+1769838053407,"}
+"
+1769838053407,"SNS Message: Hello performance test - 3
+"
+1769838053407,"Language=Python
+"
+1769838053407,"ColdStart=False
+"
+1769838053407,"InitDurationMs=2042.63
+"
+1769838053407,"ExecutionDurationMs=0.17
+"
+1769838053408,"END RequestId: ae70da99-f161-4dac-835b-e36d2afcb08d
+"
+1769838053408,"REPORT RequestId: ae70da99-f161-4dac-835b-e36d2afcb08d	Duration: 1.50 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 31 MB	
+XRAY TraceId: 1-697d95e5-3595646049f464943000dbee	SegmentId: c7df9a57e4e36ca0	Sampled: true	
+"
+1769838055682,"START RequestId: 4ec80bf4-d302-4e56-a712-03ab91294670 Version: $LATEST
+"
+1769838055682,"SNS Event:
+"
+1769838055683,"{
+"
+1769838055683,"""Records"": [
+"
+1769838055683,"{
+"
+1769838055683,"""EventSource"": ""aws:sns"",
+"
+1769838055683,"""EventVersion"": ""1.0"",
+"
+1769838055683,"""EventSubscriptionArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838055683,"""Sns"": {
+"
+1769838055683,"""Type"": ""Notification"",
+"
+1769838055683,"""MessageId"": ""988ecb1a-acf9-5545-84e6-aaed34dee82a"",
+"
+1769838055683,"""TopicArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic"",
+"
+1769838055683,"""Message"": ""Hello performance test - 4"",
+"
+1769838055683,"""Timestamp"": ""2026-01-31T05:40:55.605Z"",
+"
+1769838055683,"""SignatureVersion"": ""1"",
+"
+1769838055683,"""Signature"": ""cqD19EuQNPZH5armcWsDu+gnGfkf6cQyIi50kWrjfyJhvtTKJjQ4KOaNO+CYsmVWNi/Ya6VMmfEE5B287lTvPJ27sL4Ma4UQVR5WjzYt8L8N5cFqXV02jS2JpCuKNA825CXVJZ+j7eOEc34J655Yc7hQDZzR1lwSs84BunDT/JJpsjoT8Sr6tO5p4+dqdCkAuXVb0fKxza2InCI1WktfuesN5Z/VRv72orwnnQyf0OTLj3G8D1HJKCZ78wt/gHpeZQJAQsn+Pgv+J5jKqEMj8qeFLp6QI5d+DqCmTCtUyzyhNvwGHLhM48RuBy7+Z+lxH403kmVZOwExDC/euDh8hQ=="",
+"
+1769838055683,"""SigningCertUrl"": ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7506a1e35b36ef5a444dd1a8e7cc3ed8.pem"",
+"
+1769838055683,"""Subject"": null,
+"
+1769838055683,"""UnsubscribeUrl"": ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838055683,"""MessageAttributes"": {}
+"
+1769838055683,"}
+"
+1769838055683,"}
+"
+1769838055683,"]
+"
+1769838055683,"}
+"
+1769838055683,"SNS Message: Hello performance test - 4
+"
+1769838055683,"Language=Python
+"
+1769838055683,"ColdStart=False
+"
+1769838055683,"InitDurationMs=4318.48
+"
+1769838055683,"ExecutionDurationMs=0.19
+"
+1769838055684,"END RequestId: 4ec80bf4-d302-4e56-a712-03ab91294670
+"
+1769838055684,"REPORT RequestId: 4ec80bf4-d302-4e56-a712-03ab91294670	Duration: 1.31 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 31 MB	
+XRAY TraceId: 1-697d95e7-4179d9ec17f25cf67c862c33	SegmentId: ea20e13a86c5dc20	Sampled: true	
+"
+1769838057678,"START RequestId: 8ebcb65c-e252-4cc2-a32e-41c127eb044f Version: $LATEST
+"
+1769838057678,"SNS Event:
+"
+1769838057678,"{
+"
+1769838057678,"""Records"": [
+"
+1769838057678,"{
+"
+1769838057678,"""EventSource"": ""aws:sns"",
+"
+1769838057678,"""EventVersion"": ""1.0"",
+"
+1769838057678,"""EventSubscriptionArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838057678,"""Sns"": {
+"
+1769838057678,"""Type"": ""Notification"",
+"
+1769838057678,"""MessageId"": ""813c903e-8e41-5c20-94c4-f1c91668e4e6"",
+"
+1769838057678,"""TopicArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic"",
+"
+1769838057678,"""Message"": ""Hello performance test - 5"",
+"
+1769838057678,"""Timestamp"": ""2026-01-31T05:40:57.599Z"",
+"
+1769838057678,"""SignatureVersion"": ""1"",
+"
+1769838057678,"""Signature"": ""hA5qln/WOWQ/fLqiWjGgW0yWn2vO+8aRspGyDAm5ssv3evYQXCnHMFG5os8wEQXigO9QNsVlYXQoTDJuG00GznyymT0XWQOhcWuaZYld4L6Ny66Nci3qeNcXfbq+8B6yw/6tlpQM9GtZdSz0mJeOWgJnfyyqO43ZZbNXGsz2PXdr5xohU3jLF5NPs/ttPEAh7I/WQQ2zMoYOfFQiazaBDWPJqTjsNmPNO8hQyvOJ551XIVd7gUoYDmU+L9v222LNkLUJTXuV/0ZT9XYCxCQxbckBPauUKRLeIr7fwSp4B9WowhQ4hlX4Hpc0hUhR768y5soRtymD210HUZtx8SqQ/Q=="",
+"
+1769838057678,"""SigningCertUrl"": ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7506a1e35b36ef5a444dd1a8e7cc3ed8.pem"",
+"
+1769838057678,"""Subject"": null,
+"
+1769838057678,"""UnsubscribeUrl"": ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838057678,"""MessageAttributes"": {}
+"
+1769838057678,"}
+"
+1769838057678,"}
+"
+1769838057678,"]
+"
+1769838057678,"}
+"
+1769838057679,"SNS Message: Hello performance test - 5
+"
+1769838057679,"Language=Python
+"
+1769838057679,"ColdStart=False
+"
+1769838057679,"InitDurationMs=6314.52
+"
+1769838057679,"ExecutionDurationMs=0.16
+"
+1769838057680,"END RequestId: 8ebcb65c-e252-4cc2-a32e-41c127eb044f
+"
+1769838057680,"REPORT RequestId: 8ebcb65c-e252-4cc2-a32e-41c127eb044f	Duration: 1.21 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 31 MB	
+XRAY TraceId: 1-697d95e9-3b32faf9213f2d8564846124	SegmentId: 652f8f429ac9a7b5	Sampled: true	
+"
+1769838059834,"START RequestId: 1c978fe9-ea21-4844-8c9b-f551a00cb770 Version: $LATEST
+"
+1769838059834,"SNS Event:
+"
+1769838059834,"{
+"
+1769838059834,"""Records"": [
+"
+1769838059834,"{
+"
+1769838059834,"""EventSource"": ""aws:sns"",
+"
+1769838059834,"""EventVersion"": ""1.0"",
+"
+1769838059834,"""EventSubscriptionArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838059834,"""Sns"": {
+"
+1769838059834,"""Type"": ""Notification"",
+"
+1769838059834,"""MessageId"": ""e14a715a-d1a7-592d-a472-10ad498c05c9"",
+"
+1769838059834,"""TopicArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic"",
+"
+1769838059834,"""Message"": ""Hello performance test - 6"",
+"
+1769838059834,"""Timestamp"": ""2026-01-31T05:40:59.758Z"",
+"
+1769838059834,"""SignatureVersion"": ""1"",
+"
+1769838059834,"""Signature"": ""G9kBPRvsRAir5oxjhPko2Uoz13d0R7K67yqWaNY1woz0AB/DQ9DhBnxwplwLGws7/x7LzwiQiWRIZVjmWaPDBuNk6qokrKbtFWn76BDzIZM9qH8grapix4or+EPHa27vlBTy1Hfn/9vHzOUScKqKnTBYbgqq7PmfL+VsizrZjC3TyjVbJshuQKfLKlid7Si2ErwihheLbFW1jC1Vp8sWaXYuS5cqGFF4Oc50PGwajLnMTN4dz7h6Mb/8iuE+YyETOHhyYoGORz+kzJ082FS+ws9iyVeLHzJ0HAn+Z41q3HjMyH69E5+qJPi4Fr+T7fOjbfptjbt+/vGtSgc12oIFrQ=="",
+"
+1769838059834,"""SigningCertUrl"": ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7506a1e35b36ef5a444dd1a8e7cc3ed8.pem"",
+"
+1769838059834,"""Subject"": null,
+"
+1769838059834,"""UnsubscribeUrl"": ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838059834,"""MessageAttributes"": {}
+"
+1769838059834,"}
+"
+1769838059834,"}
+"
+1769838059834,"]
+"
+1769838059834,"}
+"
+1769838059834,"SNS Message: Hello performance test - 6
+"
+1769838059834,"Language=Python
+"
+1769838059834,"ColdStart=False
+"
+1769838059834,"InitDurationMs=8470.26
+"
+1769838059834,"ExecutionDurationMs=0.20
+"
+1769838059835,"END RequestId: 1c978fe9-ea21-4844-8c9b-f551a00cb770
+"
+1769838059836,"REPORT RequestId: 1c978fe9-ea21-4844-8c9b-f551a00cb770	Duration: 1.26 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 31 MB	
+XRAY TraceId: 1-697d95eb-170cf2b137089dac7e6fccdb	SegmentId: 748351a3ab3a3dca	Sampled: true	
+"
+1769838062222,"START RequestId: d0d6c734-a5ba-4418-ae79-aacd235845d4 Version: $LATEST
+"
+1769838062222,"SNS Event:
+"
+1769838062222,"{
+"
+1769838062222,"""Records"": [
+"
+1769838062222,"{
+"
+1769838062222,"""EventSource"": ""aws:sns"",
+"
+1769838062222,"""EventVersion"": ""1.0"",
+"
+1769838062222,"""EventSubscriptionArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838062222,"""Sns"": {
+"
+1769838062222,"""Type"": ""Notification"",
+"
+1769838062222,"""MessageId"": ""45b687e8-ac3b-5d7b-b512-e61f3415b5bf"",
+"
+1769838062222,"""TopicArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic"",
+"
+1769838062222,"""Message"": ""Hello performance test - 7"",
+"
+1769838062222,"""Timestamp"": ""2026-01-31T05:41:02.143Z"",
+"
+1769838062222,"""SignatureVersion"": ""1"",
+"
+1769838062222,"""Signature"": ""ZjSwMNvuzB/5UejCLtZZQafYKpaqJ5BUS9I2brLbXElYVudNz6VicY5ee45EyuTHmJ4ykMaRbHP4u+LHX83s2ofRddhNZ0OQFEiDfIIznbqA/mqZ0jvHFQ1Mx/wOWB1QO9jmUMl0COm29OwNR0yNBRBJmwteIk4INsSu+8ZUZXS+rsTkaYANAuU5eWCE0fG0UnclF3OcHIxbTt0B8KzEElTS6IP4Iuw3/Q+g2ELwI0GGJ5YuVSvkFyt0hKmYWs22ssNv0EuFFQI7H05KCieeUpkRtUZgnaqJwSnCGniY8g4BYEoXtDnSZRMo/80PEUbDa6W5kI7/WQDx2+lFJtid5g=="",
+"
+1769838062222,"""SigningCertUrl"": ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7506a1e35b36ef5a444dd1a8e7cc3ed8.pem"",
+"
+1769838062222,"""Subject"": null,
+"
+1769838062222,"""UnsubscribeUrl"": ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838062222,"""MessageAttributes"": {}
+"
+1769838062222,"}
+"
+1769838062222,"}
+"
+1769838062222,"]
+"
+1769838062222,"}
+"
+1769838062222,"SNS Message: Hello performance test - 7
+"
+1769838062222,"Language=Python
+"
+1769838062222,"ColdStart=False
+"
+1769838062222,"InitDurationMs=10858.03
+"
+1769838062222,"ExecutionDurationMs=0.16
+"
+1769838062224,"END RequestId: d0d6c734-a5ba-4418-ae79-aacd235845d4
+"
+1769838062224,"REPORT RequestId: d0d6c734-a5ba-4418-ae79-aacd235845d4	Duration: 1.34 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 31 MB	
+XRAY TraceId: 1-697d95ee-7ee4d3097319a9e40c55603a	SegmentId: 833c09979239c5db	Sampled: true	
+"
+1769838065473,"START RequestId: b2dec569-a4c5-4912-8646-28f22769f42c Version: $LATEST
+"
+1769838065474,"SNS Event:
+"
+1769838065474,"{
+"
+1769838065474,"""Records"": [
+"
+1769838065474,"{
+"
+1769838065474,"""EventSource"": ""aws:sns"",
+"
+1769838065474,"""EventVersion"": ""1.0"",
+"
+1769838065474,"""EventSubscriptionArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838065474,"""Sns"": {
+"
+1769838065474,"""Type"": ""Notification"",
+"
+1769838065474,"""MessageId"": ""1163f7f6-f742-55d9-8355-96016f73c19b"",
+"
+1769838065474,"""TopicArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic"",
+"
+1769838065474,"""Message"": ""Hello performance test - 8"",
+"
+1769838065474,"""Timestamp"": ""2026-01-31T05:41:05.402Z"",
+"
+1769838065474,"""SignatureVersion"": ""1"",
+"
+1769838065474,"""Signature"": ""F9n6cD3bJwROTj5iVh2MXQURCDfO+JR8ZJmFk7FC89aO70AlF5IYECgZinMxkJ0NB5O2j3XrAVjCkMMZWHwqSXvFkrxhF/R64Zp9Tf0Tts7RqWyb3WToGY8i7beYtECOBl1QNHGGeSO6T9ZL0AWQAF3L9FyCHE9AEyOsiPbtDFuqWyiOHMbuH2sYeigrmtqo8GkMwwv8yPn0YSZXM4snBZqQE0COpLHvS7NkN9KDJVf5mI/N8pKqLtLAVa+V6rpWinlKtFiveQ3Bja4TMd1W0v6AFrxDZkx1w1Jml/nM8aMVf9FijC98rptGB9EMFWuT54JJt2+ui+qJZa/JV4H5gQ=="",
+"
+1769838065474,"""SigningCertUrl"": ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7506a1e35b36ef5a444dd1a8e7cc3ed8.pem"",
+"
+1769838065474,"""Subject"": null,
+"
+1769838065474,"""UnsubscribeUrl"": ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838065474,"""MessageAttributes"": {}
+"
+1769838065474,"}
+"
+1769838065474,"}
+"
+1769838065474,"]
+"
+1769838065474,"}
+"
+1769838065474,"SNS Message: Hello performance test - 8
+"
+1769838065474,"Language=Python
+"
+1769838065474,"ColdStart=False
+"
+1769838065474,"InitDurationMs=14109.64
+"
+1769838065474,"ExecutionDurationMs=0.16
+"
+1769838065475,"END RequestId: b2dec569-a4c5-4912-8646-28f22769f42c
+"
+1769838065475,"REPORT RequestId: b2dec569-a4c5-4912-8646-28f22769f42c	Duration: 1.31 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 31 MB	
+XRAY TraceId: 1-697d95f1-6534f915124aa1cc0480a2d1	SegmentId: be03261d7833cf1b	Sampled: true	
+"
+1769838067984,"START RequestId: 12a6b711-d559-434d-8130-155b9be87564 Version: $LATEST
+"
+1769838067984,"SNS Event:
+"
+1769838067984,"{
+"
+1769838067984,"""Records"": [
+"
+1769838067984,"{
+"
+1769838067984,"""EventSource"": ""aws:sns"",
+"
+1769838067984,"""EventVersion"": ""1.0"",
+"
+1769838067984,"""EventSubscriptionArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838067984,"""Sns"": {
+"
+1769838067984,"""Type"": ""Notification"",
+"
+1769838067984,"""MessageId"": ""3e3e0e27-a6cb-5259-82f5-6fd03ef83631"",
+"
+1769838067984,"""TopicArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic"",
+"
+1769838067984,"""Message"": ""Hello performance test - 9"",
+"
+1769838067984,"""Timestamp"": ""2026-01-31T05:41:07.901Z"",
+"
+1769838067984,"""SignatureVersion"": ""1"",
+"
+1769838067984,"""Signature"": ""n99w+japX1gDGk89wq4dkBH6XNIMaU2GQCLooDEjUeRwoDROqPTszlg9sSJt9x+Sy54llvRI0rrY3U8/v8t7ROZPRH2dPQFdMxmgB+xC3HTq21PHxoYgb8bknEZR/OqeLEEgNJwdh9v7239QM7CP17e6POBwIVNmfjGtGYorxIO1OTFriN1sUDtK/yrfNrDobPTA2Ca+7ejeM19FscHD28ajkl8cPqL5xX75fPgwvIrcLJfZV1NoyoGFkrS/yLVUBZNTcF+O5MS4WxDZlUMswMrK18RNNzkxLwsvxGui11NfoaEHiatDPNOoEIVPI/mgmZThYxvEuatqCIs5roamIg=="",
+"
+1769838067984,"""SigningCertUrl"": ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7506a1e35b36ef5a444dd1a8e7cc3ed8.pem"",
+"
+1769838067984,"""Subject"": null,
+"
+1769838067984,"""UnsubscribeUrl"": ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:75865554-2377-4bf3-8f0e-492bbd49866a"",
+"
+1769838067984,"""MessageAttributes"": {}
+"
+1769838067984,"}
+"
+1769838067984,"}
+"
+1769838067984,"]
+"
+1769838067984,"}
+"
+1769838067984,"SNS Message: Hello performance test - 9
+"
+1769838067984,"Language=Python
+"
+1769838067984,"ColdStart=False
+"
+1769838067984,"InitDurationMs=16620.31
+"
+1769838067984,"ExecutionDurationMs=0.16
+"
+1769838067986,"END RequestId: 12a6b711-d559-434d-8130-155b9be87564
+"
+1769838067986,"REPORT RequestId: 12a6b711-d559-434d-8130-155b9be87564	Duration: 1.39 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 31 MB	
+XRAY TraceId: 1-697d95f3-7a85ac2368f8955c200621a0	SegmentId: d61a073fc6f0e219	Sampled: true	
+"

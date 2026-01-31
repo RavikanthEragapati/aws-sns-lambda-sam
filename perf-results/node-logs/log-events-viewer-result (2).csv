@@ -1,0 +1,45 @@
+timestamp,message
+1769837110117,"INIT_START Runtime Version: nodejs:24.v29	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:b0bb5dea1b12bb0e2c3b50ed434af2fd2d16d383f7324c7b455111008b6112ba
+"
+1769837110264,"START RequestId: cd7fa08d-8991-4c31-b5c4-3c7aee1fe27f Version: $LATEST
+"
+1769837110269,"2026-01-31T05:25:10.269Z	cd7fa08d-8991-4c31-b5c4-3c7aee1fe27f	INFO	SNS Event:
+"
+1769837110310,"2026-01-31T05:25:10.310Z	cd7fa08d-8991-4c31-b5c4-3c7aee1fe27f	INFO	{
+  ""Records"": [
+    {
+      ""EventSource"": ""aws:sns"",
+      ""EventVersion"": ""1.0"",
+      ""EventSubscriptionArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:f1668432-cb9d-4808-8950-9d2044a691e6"",
+      ""Sns"": {
+        ""Type"": ""Notification"",
+        ""MessageId"": ""8cdc3ab9-9aae-5b05-ad86-5b4e0edb1bbc"",
+        ""TopicArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic"",
+        ""Message"": ""Hello performance test"",
+        ""Timestamp"": ""2026-01-31T05:25:09.861Z"",
+        ""SignatureVersion"": ""1"",
+        ""Signature"": ""HxmWVGxeview3fi3ZMNKCpsUkcPR7mqp+Lwg6UGawmu06NZ6tKFRHy/m4OqATkIsQGw1DUWcTKXQaPpxKkRjZkV9DppyJvYBUFmzovrh/EHX3EncTB+rJaYvcrPq3J/01pcALJWO80QV3GgnoUF+o9Ia8xYCyUf8Uw/qwK+b6/QEEDK+IKHe+qpEaFzPUDeDyXbnkWyB8tbcp3yXAhlH4Ok35LMIGQIDg7cSc/jT6F13GYHdNDDzR6tnARgRirRtwXlAJ/QSEN5WdCPk3M0kvoEClpXfUyyQC4k1wIoyeq2i3jgpcyqkhDt7Lx00TBP4WoKFeul9KtIVvAubjC8VhA=="",
+        ""SigningCertUrl"": ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7506a1e35b36ef5a444dd1a8e7cc3ed8.pem"",
+        ""Subject"": null,
+        ""UnsubscribeUrl"": ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:f1668432-cb9d-4808-8950-9d2044a691e6"",
+        ""MessageAttributes"": {}
+      }
+    }
+  ]
+}
+"
+1769837110327,"2026-01-31T05:25:10.327Z	cd7fa08d-8991-4c31-b5c4-3c7aee1fe27f	INFO	SNS Message: Hello performance test
+"
+1769837110328,"2026-01-31T05:25:10.328Z	cd7fa08d-8991-4c31-b5c4-3c7aee1fe27f	INFO	Language=Node.js
+"
+1769837110328,"2026-01-31T05:25:10.328Z	cd7fa08d-8991-4c31-b5c4-3c7aee1fe27f	INFO	ColdStart=true
+"
+1769837110328,"2026-01-31T05:25:10.328Z	cd7fa08d-8991-4c31-b5c4-3c7aee1fe27f	INFO	InitDurationMs=72
+"
+1769837110328,"2026-01-31T05:25:10.328Z	cd7fa08d-8991-4c31-b5c4-3c7aee1fe27f	INFO	ExecutionDurationMs=59
+"
+1769837110349,"END RequestId: cd7fa08d-8991-4c31-b5c4-3c7aee1fe27f
+"
+1769837110349,"REPORT RequestId: cd7fa08d-8991-4c31-b5c4-3c7aee1fe27f	Duration: 84.36 ms	Billed Duration: 226 ms	Memory Size: 128 MB	Max Memory Used: 77 MB	Init Duration: 141.13 ms	
+XRAY TraceId: 1-697d9235-25d094fd05a7188d5df3e54d	SegmentId: 65acb2086953f155	Sampled: true	
+"

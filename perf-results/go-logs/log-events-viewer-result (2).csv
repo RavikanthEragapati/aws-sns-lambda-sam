@@ -1,0 +1,66 @@
+timestamp,message
+1769837110246,"INIT_START Runtime Version: provided:al2023.v120	Runtime Version ARN: arn:aws:lambda:us-east-1::runtime:966423e119b6dbbfa03370e8ccdeb0b3063d5f34c6b21aacdb656b414b939f44
+"
+1769837110324,"START RequestId: 49d26b64-70e7-47f0-b5ab-c5f3287f843b Version: $LATEST
+"
+1769837110325,"SNS Event:
+"
+1769837110325,"{
+"
+1769837110325,"""Records"": [
+"
+1769837110325,"{
+"
+1769837110325,"""EventVersion"": ""1.0"",
+"
+1769837110325,"""EventSubscriptionArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:451b8ded-1260-4fb7-9eb9-2cbb01a6a78f"",
+"
+1769837110325,"""EventSource"": ""aws:sns"",
+"
+1769837110325,"""Sns"": {
+"
+1769837110325,"""Signature"": ""HxmWVGxeview3fi3ZMNKCpsUkcPR7mqp+Lwg6UGawmu06NZ6tKFRHy/m4OqATkIsQGw1DUWcTKXQaPpxKkRjZkV9DppyJvYBUFmzovrh/EHX3EncTB+rJaYvcrPq3J/01pcALJWO80QV3GgnoUF+o9Ia8xYCyUf8Uw/qwK+b6/QEEDK+IKHe+qpEaFzPUDeDyXbnkWyB8tbcp3yXAhlH4Ok35LMIGQIDg7cSc/jT6F13GYHdNDDzR6tnARgRirRtwXlAJ/QSEN5WdCPk3M0kvoEClpXfUyyQC4k1wIoyeq2i3jgpcyqkhDt7Lx00TBP4WoKFeul9KtIVvAubjC8VhA=="",
+"
+1769837110325,"""MessageId"": ""8cdc3ab9-9aae-5b05-ad86-5b4e0edb1bbc"",
+"
+1769837110325,"""Type"": ""Notification"",
+"
+1769837110325,"""TopicArn"": ""arn:aws:sns:us-east-1:122610509877:lambda-performance-topic"",
+"
+1769837110325,"""MessageAttributes"": {},
+"
+1769837110325,"""SignatureVersion"": ""1"",
+"
+1769837110325,"""Timestamp"": ""2026-01-31T05:25:09.861Z"",
+"
+1769837110325,"""SigningCertUrl"": ""https://sns.us-east-1.amazonaws.com/SimpleNotificationService-7506a1e35b36ef5a444dd1a8e7cc3ed8.pem"",
+"
+1769837110325,"""Message"": ""Hello performance test"",
+"
+1769837110325,"""UnsubscribeUrl"": ""https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe\u0026SubscriptionArn=arn:aws:sns:us-east-1:122610509877:lambda-performance-topic:451b8ded-1260-4fb7-9eb9-2cbb01a6a78f"",
+"
+1769837110325,"""Subject"": """"
+"
+1769837110325,"}
+"
+1769837110325,"}
+"
+1769837110325,"]
+"
+1769837110325,"}
+"
+1769837110325,"SNS Message: Hello performance test
+"
+1769837110325,"Language=Go
+"
+1769837110325,"ColdStart=true
+"
+1769837110325,"InitDurationMs=8
+"
+1769837110325,"ExecutionDurationMs=0
+"
+1769837110326,"END RequestId: 49d26b64-70e7-47f0-b5ab-c5f3287f843b
+"
+1769837110326,"REPORT RequestId: 49d26b64-70e7-47f0-b5ab-c5f3287f843b	Duration: 1.73 ms	Billed Duration: 77 ms	Memory Size: 128 MB	Max Memory Used: 20 MB	Init Duration: 74.66 ms	
+XRAY TraceId: 1-697d9235-3fc0bb5f03eb7e8e516daa04	SegmentId: 381ec017e6cc453c	Sampled: true	
+"
