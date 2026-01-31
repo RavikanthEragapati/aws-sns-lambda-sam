@@ -1,4 +1,4 @@
-
+import json
 import time
 
 cold_start = True
@@ -8,6 +8,15 @@ def handler(event, context):
     global cold_start
 
     start = time.time()
+
+    # Print full SNS event
+    print("SNS Event:")
+    print(json.dumps(event, indent=2))
+
+    # Print message(s)
+    for record in event.get("Records", []):
+        message = record.get("Sns", {}).get("Message")
+        print(f"SNS Message: {message}")
 
     print("Language=Python")
     print(f"ColdStart={cold_start}")
