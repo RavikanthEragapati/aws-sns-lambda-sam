@@ -1,1 +1,56 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: SNS fanout performance comparison (Go, Python, Node.js)
 
+Globals:
+  Function:
+    Timeout: 10
+    MemorySize: 128
+    Runtime: provided.al2
+    Tracing: Active
+
+Resources:
+
+  PerformanceTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: lambda-performance-topic
+
+  GoFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: go-performance
+      Handler: bootstrap
+      Runtime: provided.al2
+      CodeUri: go/
+      Events:
+        SNSEvent:
+          Type: SNS
+          Properties:
+            Topic: !Ref PerformanceTopic
+
+  PythonFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: python-performance
+      Runtime: python3.11
+      Handler: app.handler
+      CodeUri: python/
+      Events:
+        SNSEvent:
+          Type: SNS
+          Properties:
+            Topic: !Ref PerformanceTopic
+
+  NodeFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: node-performance
+      Runtime: nodejs18.x
+      Handler: index.handler
+      CodeUri: node/
+      Events:
+        SNSEvent:
+          Type: SNS
+          Properties:
+            Topic: !Ref PerformanceTopic
